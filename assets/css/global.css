@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --Dark-cyan: hsl(185, 75%, 39%);
+  --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --Dark-grayish-blue: hsl(227, 10%, 46%);
+  --Dark-gray: hsl(0, 0%, 59%);
+
+  --Kumbh: "Kumbh Sans", sans-serif;
+  --text-ft: 700 2.4em/150% var(--Kumbh);
+  --text-lg: 400 2.4em/150% var(--Kumbh);
+  --text-md: 400 1.8em/150% var(--Kumbh);
+  --text: 400 1.6em/150% var(--Kumbh);
+}

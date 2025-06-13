@@ -11,31 +11,32 @@
   <title>Frontend Mentor | Profile card component</title>
 
   <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="assets/css/index.css">
 </head>
 <body>
   <main id="content">
     <header></header>
-    <section class="card-info">
-      <h1>Victor Crest<span>26</span></h1>
+    <section class="card-infos">
+      <img src="assets/images/image-victor.jpg" alt="Victor Crest pic">
+      <div class="card-info">
+        <h1>Victor Crest</h1>
+        <span>26</span>
+      </div>
       <p>London</p>
     </section>
-    <hr>
+
     <footer class="card-stats">
       <div class="card-stat">
-        <span>80K</span>
-        <span>Followers</span>
+        <span class="card-score">80K</span>
+        <span class="card-segment">Followers</span>
       </div>
       <div class="card-stat">
-        <span>803K</span>
-        <span>Likes</span>
+        <span class="card-score">803K</span>
+        <span class="card-segment">Likes</span>
       </div>
       <div class="card-stat">
-        <span>1.4K</span>
-        <span>Photos</span>
+        <span class="card-score">1.4K</span>
+        <span class="card-segment">Photos</span>
       </div>
     </footer>
   </main>
