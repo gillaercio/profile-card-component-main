@@ -4,10 +4,16 @@ body {
   justify-items: center;
   height: 100vh;
   background-color: var(--Dark-cyan);
+  background-image: url(../images/bg-pattern-top.svg),
+    url(../images/bg-pattern-bottom.svg);
+  background-position: 275% 275%, -175% -175%;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 125% 125%, 125% 125%;
+  background-attachment: fixed, fixed;
 }
 
 main {
-  width: 375px;
+  width: 320px;
   border-radius: 20px;
   background-color: white;
   overflow: hidden;
@@ -55,7 +61,9 @@ header {
   color: var(--Very-dark-desaturated-blue);
 }
 
-.card-info span, p, .card-segment {
+.card-info span,
+.card-info p,
+.card-segment {
   color: var(--Dark-grayish-blue);
 }
 
